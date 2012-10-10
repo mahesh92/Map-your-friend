@@ -42,7 +42,7 @@
             };
             var infoWindow = new google.maps.InfoWindow();
             map = new google.maps.Map(document.getElementById("content"), mapOptions);
-            $.getJSON("src/db.php?name=<?php echo $name;?>&lat="+lat+"&lng="+lng, function(data) {
+            $.getJSON("db.php?name=<?php echo $name;?>&lat="+lat+"&lng="+lng, function(data) {
                 var i=1;
                 $.each(data, function(index,row){
                     $('#list').append(row['name'] + i+"<br/ >");
@@ -67,7 +67,7 @@
         $(window).bind("beforeunload", function() {
             alert("do you want to leave this page");
             $.ajax({
-            url:'src/db.php?name=<?php echo $name;?>',
+            url:'db.php?name=<?php echo $name;?>',
             type : 'GET',
             async : false,
             });    
