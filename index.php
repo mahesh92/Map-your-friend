@@ -22,7 +22,7 @@
                 border:5px solid gray;
                 margin:10px;
                 right:0px;
-                background-image:url('res/myf.png');
+                background-image:url('res/img/myf.png');
                 background-repeat:no-repeat;
                 background-size: 420px 320px;
                 font-family:"Times New Roman", Times, serif;
@@ -47,7 +47,7 @@
     
             <div id="nick" class="nick">
             <center>
-                <form method="GET" action="src/map.php">
+                <form method="GET" action="src/php/map.php">
                     <label for="name">Nick Name: </label>
                     <input type = "text" id="name" name="name"></input>
                     <br>
