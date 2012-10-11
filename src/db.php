@@ -4,7 +4,7 @@
     {
         die("Database connection failed cc: ".mysql_error());
     }
-    $db = mysql_select_db('fees0_11514941_MFY',$connection);
+    $db = mysql_select_db('MFY',$connection);
     if(!$db)
     {
         die("Database connection faileddd : ".mysql_error());   
