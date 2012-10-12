@@ -4,7 +4,7 @@
     $name = $_GET['name']
   ?>
   <head>
-    <script src="jquery.js"></script>
+    <script src="../js/jquery.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
     <script>
       
@@ -72,11 +72,6 @@
             async : false,
             });    
         });
-        var seconds = 2;
-        var id = setInterval(function()
-        {
-            $('body').load('whatever.php');
-        }, 1000*seconds);
     </script>
   </head>
   <body style="font: 75% Lucida Grande, Trebuchet MS;margin:0">
