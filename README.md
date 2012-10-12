@@ -23,4 +23,7 @@ Import the "users.sql" file to database "MFY".
 
 That should get to run the project.
 
+
+We have hosted this project at http://mapyourfriend.0fees.net
+
 To ask for any detail : #......... (updating soon).
