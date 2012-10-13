@@ -17,9 +17,9 @@ The project is organised in to folders .
 
 To install , copy the files in the web folder of PHP server used.
 
-Create a database name called "MFY".
+Create a database name called "MYF".
 
-Import the "users.sql" file to database "MFY". 
+Import the "users.sql" file to database "MYF". 
 
 That should get to run the project.
 
