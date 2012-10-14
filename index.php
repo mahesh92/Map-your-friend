@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="src/css/style.css">
             <div id="nick" class="nick">
             <center>
-                <form method="GET" action="src/php/map.php">
+                <form method="POST" action="src/php/map.php">
                     <label for="name">Nick Name: </label>
                     <input type = "text" id="name" name="name"></input>
                     <br>

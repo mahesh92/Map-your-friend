@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <?php
-    $name = $_GET['name']
+    $name = $_POST['name']
   ?>
   <head>
     <script src="../js/jquery.js"></script>
