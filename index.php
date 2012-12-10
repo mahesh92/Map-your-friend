@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <style>
-
-
-    </style>
+        <link rel="stylesheet" type="text/css" href="src/css/style.css">
     </head>
     <body>
-        <link rel="stylesheet" type="text/css" href="src/css/style.css">
             <div id="nick" class="nick">
             <center>
                 <form method="POST" action="src/php/map.php">
@@ -16,7 +12,6 @@
                     <br>
                     <center><input type="submit"></center>
                 </form></center>
-            </div>
-        
+            </div>        
     </body>
 </html>

@@ -10,12 +10,9 @@ var lng = null;
 
 //Check whether the browser supports GeoLocation API or not
 
-if(!navigator.geolocation)  
-{
+if(!navigator.geolocation) {
     $('#content').text("Your Browser doesn't support Ajax");
-}
-else
-{
+} else {
     //Ask the user permission to get his location details
 
     navigator.geolocation.getCurrentPosition(success,error);
@@ -23,8 +20,7 @@ else
 
 //If the user accept to share his location
 
-function success(position)
-{
+function success(position) {
     lat = position.coords.latitude;    //Get the Latitude and Longitude of the user
     lng = position.coords.longitude;
     var mapOptions = {
@@ -40,17 +36,17 @@ function success(position)
         //Locate all the users from the database
 
         $.each(data, function(index,row){
-            $('#list').append(i+"."+row['name']+"<br/ >");
-            latLng = new google.maps.LatLng(row['latitude'], row['longitude']);  
+            $('#list').append(i+"."+row.name+"<br/ >");
+            latLng = new google.maps.LatLng(row.latitude, row.longitude);  
             var marker = new google.maps.Marker({
                 position: latLng,
                 map: map,
-                title: row['name']
+                title: row.name
             });
             //Provide Tooltip when we click on the marker
 
             google.maps.event.addListener(marker, "click", function(e) {
-                infoWindow.setContent(row['name']+"<br / >"+row['latitude']+"<br / >"+row['longitude']);
+                infoWindow.setContent(row.name+"<br / >"+row.latitude+"<br / >"+row.longitude);
                 infoWindow.open(map, marker);
             });
             i = i+1; 
@@ -60,8 +56,7 @@ function success(position)
 
 //If the user denies to share his location
 
-function error(error)
-{
+function error(error){
 }
 
 //Delete the user details from database when user move out of from our webapp
