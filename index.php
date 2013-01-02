@@ -3,7 +3,7 @@
   <head>
     <title>Map Your Friend</title>
     <meta charset="utf-8">
-    <title>myf</title>
+    <title>Map Your Friend</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -26,7 +26,11 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../res/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../res/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../res/ico/apple-touch-icon-57-precomposed.png">
+<<<<<<< HEAD
     <link rel="shortcut icon" href="res/ico/favicon.ico">
+=======
+    <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
+>>>>>>> heroku
   </head>
 
   <body>
