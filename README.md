@@ -24,6 +24,6 @@ Import the "users.sql" file to database "MYF".
 That should get to run the project.
 
 
-We have hosted this project at http://mapyourfriend.0fees.net
+We have hosted this project at http://mapyourfriend.herokuapp.com
 
 To ask for any detail : #......... (updating soon).
