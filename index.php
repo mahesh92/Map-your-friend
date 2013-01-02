@@ -49,7 +49,8 @@
     <div class="jumbotron">
         <h2>Stay connected always</h2>
         <p class="lead">Connect to your friends and move with them. This app provides you and your friends to locate and communicate each other.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+        <button class="btn btn-large btn-success">Create a group</button>
+        <button class="btn btn-large btn">Join a Group</button>
     </div>
     <div class="footer">
         <p>&copy; Company 2012</p>
