@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Map Your Friend</title>
     <meta charset="utf-8">
     <title>myf</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +35,7 @@
             <img src="res/img/Black_and_white_223x75.png" class="img-rounded">
             <ul class="nav nav-pills pull-right">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="">About the app</a></li>
+                <li><a href="">About app</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Get Involved <b class="caret"></b></a>
                     <ul class="dropdown-menu">
