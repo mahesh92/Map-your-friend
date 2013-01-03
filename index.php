@@ -37,7 +37,7 @@
                     </ul>
                 </li>
             </ul>
-     <h2 style="vertical-align: middle;">Stay connected always</h2>
+
         </div>
       <hr>
     <div class="">
@@ -57,7 +57,7 @@
 
 
     <div class="jumbotron">
-        <p class="lead">Connect to your friends and move with them. This app provides you and your friends to locate and communicate each other.</p>
+        <p class="lead"></p>
         <button class="btn btn-large btn-success">Create a group</button>
         <button class="btn btn-large btn">Join a Group</button>
     </div>
