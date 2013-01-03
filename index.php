@@ -5,8 +5,16 @@
     <meta charset="utf-8">
     <title>Map Your Friend</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<META NAME="KEYWORDS" CONTENT="mapyourfriend,myf,how to locate my friend">
+<META NAME="DESCRIPTION" CONTENT="This app lets you locate your friends online and communicate to each other.">
+<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="EN">
+<META NAME="revisit-after" CONTENT="14 days">
+<META NAME="Generator" CONTENT="http://websitesubmit.hypermart.net/">
+<META NAME="robots" CONTENT="all">
+<META NAME="Author" CONTENT="Abhiram">
+<META NAME="Copyright" CONTENT="copyright">
+<!-- MetaTags http://websitesubmit.hypermart.net/ -->
+<!-- This app lets you locate your friends online and communicate to each other. -->
  
     <script src="src/js/jquery.js"></script>
     <script src="src/js/bootstrap-dropdown.js"></script>
