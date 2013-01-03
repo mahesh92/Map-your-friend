@@ -35,9 +35,9 @@
     <body>
         <div class="container-narrow">
             <div class="masthead">
-                <img src="res/img/Black_and_white_223x75.png" class="img-rounded">
+                <a href="" ><img src="res/img/Black_and_white_223x75.png" class="img-rounded"></a>
                 <ul class="nav nav-pills pull-right">
-                    <li class=""><a href="#">Home</a></li>
+                    <li class=""><a href="">Home</a></li>
                     <li><a href="">About app</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Get Involved <b class="caret"></b></a>
