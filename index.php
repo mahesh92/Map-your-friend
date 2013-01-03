@@ -22,6 +22,7 @@
         <script src="src/js/bootstrap-carousel.js"></script>
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/script.js"></script>
+        <script src="src/js/bootstrap-modal.js"></script>
     
         <link href="src/css/bootstrap.css" rel="stylesheet">
         <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
@@ -47,6 +48,21 @@
                     </li>
                 </ul>
             </div>
+
+ 
+            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">Modal header</h3>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body…</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                    <button class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
             <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
                 <div class="carousel-inner">
@@ -60,7 +76,7 @@
             </div>
             <div class="jumbotron">
                 <p class="lead"></p>
-                <button class="btn btn-large btn-success">Create a group</button>
+                <button class="btn btn-large btn-success" data-toggle="modal" data-target="#myModal">Create a group</button>
                 <button class="btn btn-large btn">Join a Group</button>
             </div>
             <div class="footer">
