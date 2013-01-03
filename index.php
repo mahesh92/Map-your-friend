@@ -10,24 +10,13 @@
  
     <script src="src/js/jquery.js"></script>
     <script src="src/js/bootstrap-dropdown.js"></script>
+    <script src="src/js/bootstrap-carousel.js"></script>
     <script src="src/js/script.js"></script>
     
     <link href="src/css/bootstrap.css" rel="stylesheet">
     <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="src/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../res/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../res/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../res/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../res/ico/apple-touch-icon-57-precomposed.png">
-
-    <link rel="shortcut icon" href="res/ico/favicon.ico">
+    <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.ico">
 
     <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
 
@@ -38,28 +27,44 @@
         <div class="masthead">
             <img src="res/img/Black_and_white_223x75.png" class="img-rounded">
             <ul class="nav nav-pills pull-right">
-                <li class="active"><a href="#">Home</a></li>
+                <li class=""><a href="#">Home</a></li>
                 <li><a href="">About app</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Get Involved <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">Feature request</a></li>
                         <li><a href="#">Donate</a></li>
                     </ul>
                 </li>
             </ul>
+     <h2 style="vertical-align: middle;">Stay connected always</h2>
         </div>
       <hr>
+    <div class="">
+
+    </div>
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><img src="res/img/bootstrap-mdo-sfmoma-01.jpg"></div>
+    <div class="item"><img src="res/img/bootstrap-mdo-sfmoma-01.jpg"></div>
+    <div class="item"><img src="res/img/bootstrap-mdo-sfmoma-02.jpg"></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
 
     <div class="jumbotron">
-        <h2>Stay connected always</h2>
         <p class="lead">Connect to your friends and move with them. This app provides you and your friends to locate and communicate each other.</p>
         <button class="btn btn-large btn-success">Create a group</button>
         <button class="btn btn-large btn">Join a Group</button>
     </div>
     <div class="footer">
-        <p>&copy; Company 2012</p>
+            <p>&copy; Company 2012</p>
     </div> 
     </div> <!-- /container -->
   </body>
 </html>
+    
