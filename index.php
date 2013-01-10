@@ -17,16 +17,9 @@
         <!-- MetaTags http://websitesubmit.hypermart.net/ -->
         <!-- This app lets you locate your friends online and communicate to each other. -->
  
-        <script src="src/js/jquery.js"></script>
-        <script src="src/js/bootstrap-dropdown.js"></script>
-        <script src="src/js/bootstrap-carousel.js"></script>
-        <script src="src/js/bootstrap-transition.js"></script>
-        <script src="src/js/script.js"></script>
-        <script src="src/js/bootstrap-modal.js"></script>
-    
         <link href="src/css/bootstrap.css" rel="stylesheet">
-        <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="src/css/style.css" rel="stylesheet">
+        <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
         <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.ico">
         <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
 
@@ -63,6 +56,7 @@
                     <button class="btn btn-primary">Save changes</button>
                 </div>
             </div>
+            <hr>
             <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
                 <div class="carousel-inner">
@@ -83,6 +77,15 @@
                 <p>&copy; Company 2012</p>
             </div> 
         </div> <!-- /container -->
+        <script src="src/js/jquery.js"></script>
+        <script src="src/js/bootstrap-dropdown.js"></script>
+        <script src="src/js/bootstrap-carousel.js"></script>
+        <script src="src/js/bootstrap-transition.js"></script>
+        <script src="src/js/script.js"></script>
+        <script src="src/js/bootstrap-modal.js"></script>
+    
+
     </body>
+
 </html>
     
