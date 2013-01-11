@@ -66,6 +66,28 @@
                 </div>
             </div>
 
+            <div id="joinBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="joinBoxLabel" aria-hidden="true">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="joinBoxLabel">Modal header</h3>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="src/php/map.php">
+                        <label for="groupid">Groupid:</label>
+                        <input type="text" id="groupid" name="groupid" placeholder="Enter the group id provided" />
+                        <label for="name">Username:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter the username" />
+                    
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                    <button class="btn btn-primary" id="join_submit_btn" type="submit">Join</button>
+                </div>
+                    </form>
+            </div>
+
+
+
             <div id="slideShow" class="carousel slide">
             <!-- Carousel items -->
                 <div class="carousel-inner">
@@ -79,7 +101,7 @@
             </div>
             <div class="jumbotron">
                 <button class="btn btn-large btn-success" data-toggle="modal" data-target="#dialogBox">Create a group</button>
-                <button class="btn-large btn">Join a Group</button>
+                <button class="btn-large btn" data-toggle="modal" data-target="#joinBox">Join a Group</button>
             </div>
             <div class="footer">
                 <center> <p>&copy; Company 2012</p> </center>
