@@ -78,9 +78,8 @@
                 <a class="carousel-control right" href="#slideShow" data-slide="next">&rsaquo;</a>
             </div>
             <div class="jumbotron">
-                <p class="lead"></p>
                 <button class="btn btn-large btn-success" data-toggle="modal" data-target="#dialogBox">Create a group</button>
-                <button class="btn btn-large btn">Join a Group</button>
+                <button class="btn-large btn">Join a Group</button>
             </div>
             <div class="footer">
                 <center> <p>&copy; Company 2012</p> </center>
