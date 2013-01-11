@@ -7,8 +7,12 @@ body {
     margin: 0 auto;
     max-width: 700px;
 }
+.carousel{
+    position : relative;
+    top : 35px;
+}
 .container-narrow > hr {
-    margin: 30px 0;
+    margin: 2px;
 }
 /* Main marketing message and sign up button */
 .jumbotron {
