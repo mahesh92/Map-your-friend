@@ -43,10 +43,10 @@
             </div>
 
  
-            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div id="dialogBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="dialogBoxLabel" aria-hidden="true">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="myModalLabel">Modal header</h3>
+                    <h3 id="dialogBoxLabel">Modal header</h3>
                 </div>
                 <div class="modal-body">
                     <p>One fine body…</p>
@@ -57,7 +57,7 @@
                 </div>
             </div>
 
-            <div id="myCarousel" class="carousel slide">
+            <div id="slideShow" class="carousel slide">
             <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item"><img src="res/img/bootstrap-mdo-sfmoma-01.jpg"></div>
@@ -65,12 +65,12 @@
                     <div class="item"><img src="res/img/bootstrap-mdo-sfmoma-02.jpg"></div>
                 </div>
                 <!-- Carousel nav -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                <a class="carousel-control left" href="#slideShow" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#slideShow" data-slide="next">&rsaquo;</a>
             </div>
             <div class="jumbotron">
                 <p class="lead"></p>
-                <button class="btn btn-large btn-success" data-toggle="modal" data-target="#myModal">Create a group</button>
+                <button class="btn btn-large btn-success" data-toggle="modal" data-target="#dialogBox">Create a group</button>
                 <button class="btn btn-large btn">Join a Group</button>
             </div>
             <div class="footer">
