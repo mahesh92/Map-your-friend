@@ -49,7 +49,16 @@
                     <h3 id="dialogBoxLabel">Modal header</h3>
                 </div>
                 <div class="modal-body">
-                    <p>One fine body…</p>
+                    <form method="POST">
+		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" placeholder="Enter the username" />
+		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
+			<label for="username2">Username:</label><input type="text" id="username2" name="username2" placeholder="Enter the username" />
+		        <label for="email2">Email:</label><input type="email" id="email2" name="email2" placeholder="Enter the Email ID" />
+			<label for="username2">Username:</label><input type="text" id="username2" name="username2" placeholder="Enter the username" />
+		        <label for="email3">Email:</label><input type="email" id="email3" name="email3" placeholder="Enter the Email ID" />
+			<label for="username4">Username:</label><input type="text" id="username4" name="username4" placeholder="Enter the username" />
+		        <label for="email4">Email:</label><input type="email" id="email4" name="email4" placeholder="Enter the Email ID" />
+		    </form>
                 </div>
                 <div class="modal-footer">
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -74,7 +83,7 @@
                 <button class="btn btn-large btn">Join a Group</button>
             </div>
             <div class="footer">
-                <p>&copy; Company 2012</p>
+                <center> <p>&copy; Company 2012</p> </center>
             </div> 
         </div> <!-- /container -->
         <script src="src/js/jquery.js"></script>
@@ -83,9 +92,6 @@
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/script.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
-    
 
     </body>
-
 </html>
-    
