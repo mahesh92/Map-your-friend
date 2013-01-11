@@ -56,7 +56,7 @@
                     <button class="btn btn-primary">Save changes</button>
                 </div>
             </div>
-            <hr>
+
             <div id="myCarousel" class="carousel slide">
             <!-- Carousel items -->
                 <div class="carousel-inner">
