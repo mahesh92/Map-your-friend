@@ -8,9 +8,6 @@
         <META NAME="KEYWORDS" CONTENT="mapyourfriend,myf,how to locate my friend">
         <META NAME="DESCRIPTION" CONTENT="This app lets you locate your friends online and communicate to each other.">
         <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="EN">
-        <META NAME="revisit-after" CONTENT="14 days">
-        <META NAME="Generator" CONTENT="http://websitesubmit.hypermart.net/">
-        <META NAME="robots" CONTENT="all">
         <META NAME="Author" CONTENT="Abhiram">
         <META NAME="Author" CONTENT="Bharath">
         <META NAME="Copyright" CONTENT="copyright">
@@ -20,7 +17,6 @@
         <link href="src/css/bootstrap.css" rel="stylesheet">
         <link href="src/css/style.css" rel="stylesheet">
         <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
-        <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.ico">
         <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
 
     </head>
