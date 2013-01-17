@@ -44,9 +44,10 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <h3 id="dialogBoxLabel">Modal header</h3>
                 </div>
-                <div class="modal-body">
-                    <form method="POST">
-		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" placeholder="Enter the username" />
+                <form method="POST">
+                    <div class="modal-body">
+                   
+		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" onblur="myfunc()" placeholder="Enter the username" />
 		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
 			<label for="username2">Username:</label><input type="text" id="username2" name="username2" placeholder="Enter the username" />
 		        <label for="email2">Email:</label><input type="email" id="email2" name="email2" placeholder="Enter the Email ID" />
@@ -54,12 +55,12 @@
 		        <label for="email3">Email:</label><input type="email" id="email3" name="email3" placeholder="Enter the Email ID" />
 			<label for="username4">Username:</label><input type="text" id="username4" name="username4" placeholder="Enter the username" />
 		        <label for="email4">Email:</label><input type="email" id="email4" name="email4" placeholder="Enter the Email ID" />
-		    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                    <button class="btn btn-primary">Save changes</button>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                        <input type="submit" class="btn btn-primary" value="Save Changes"/>
+                    </div>
+                </form>
             </div>
 
             <div id="joinBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="joinBoxLabel" aria-hidden="true">
@@ -107,8 +108,8 @@
         <script src="src/js/bootstrap-dropdown.js"></script>
         <script src="src/js/bootstrap-carousel.js"></script>
         <script src="src/js/bootstrap-transition.js"></script>
-        <script src="src/js/script.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
+        <script src="src/js/script.js"></script>
 
     </body>
 </html>
