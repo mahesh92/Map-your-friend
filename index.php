@@ -46,7 +46,7 @@
                 <form method="POST">
                     <div class="modal-body">
                    <p>Your group ID details will be mailed to you. Create your group below.</p>
-		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" onblur="myfunc()" placeholder="Enter the username" />
+		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" placeholder="Enter the username" />
 		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
 			        </div>
                     <div class="modal-footer">
@@ -65,14 +65,14 @@
                     <p>Specify your group ID here and your nickname.</p>
                     <form method="POST" action="src/php/map.php">
                         <label for="groupid">Groupid:</label>
-                        <input type="text" id="groupid" name="groupid" placeholder="Enter the group id provided" />
+                        <input type="text" id="groupid" name="groupid" placeholder="Enter the group id provided" onblur="func_group()"/><div id="area"></div>
                         <label for="name">Username:</label>
-                        <input type="text" id="name" name="name" placeholder="Enter the username" />
+                        <input type="text" id="name" name="name" placeholder="Enter the username" onblur="func_nick()"/ ><div id="area1"></div>
                     
                 </div>
                 <div class="modal-footer">
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                    <button class="btn btn-primary" id="join_submit_btn" type="submit">Join</button>
+                    <button class="btn btn-primary" id="join_submit_btn" type="submit" disabled>Join</button>
                 </div>
                     </form>
             </div>
@@ -104,6 +104,7 @@
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
         <script src="src/js/script.js"></script>
+        <script src="src/js/sample.js"></script>
 
     </body>
 </html>
