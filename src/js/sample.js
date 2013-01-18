@@ -32,7 +32,8 @@ function func_nick(){
 				   if(data){
 						
                             $('#area1').html( data );
-				   }
+				   			$('#join_submit_btn').attr('disabled', false);
+				    }
 			   },
 			});
 }
