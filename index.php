@@ -3,7 +3,6 @@
     <head>
         <title>Map Your Friend</title>
         <meta charset="utf-8">
-        <title>Map Your Friend</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <META NAME="KEYWORDS" CONTENT="mapyourfriend,myf,how to locate my friend">
         <META NAME="DESCRIPTION" CONTENT="This app lets you locate your friends online and communicate to each other.">
