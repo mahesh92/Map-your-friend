@@ -41,23 +41,17 @@
             <div id="dialogBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="dialogBoxLabel" aria-hidden="true">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="dialogBoxLabel">Modal header</h3>
+                    <h3 id="dialogBoxLabel">Create a Group</h3>
                 </div>
                 <form method="POST">
                     <div class="modal-body">
-                   
+                   <p>Your group ID details will be mailed to you. Create your group below.</p>
 		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" onblur="myfunc()" placeholder="Enter the username" />
 		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
-			<label for="username2">Username:</label><input type="text" id="username2" name="username2" placeholder="Enter the username" />
-		        <label for="email2">Email:</label><input type="email" id="email2" name="email2" placeholder="Enter the Email ID" />
-			<label for="username2">Username:</label><input type="text" id="username2" name="username2" placeholder="Enter the username" />
-		        <label for="email3">Email:</label><input type="email" id="email3" name="email3" placeholder="Enter the Email ID" />
-			<label for="username4">Username:</label><input type="text" id="username4" name="username4" placeholder="Enter the username" />
-		        <label for="email4">Email:</label><input type="email" id="email4" name="email4" placeholder="Enter the Email ID" />
-                    </div>
+			        </div>
                     <div class="modal-footer">
                         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                        <input type="submit" class="btn btn-primary" value="Save Changes"/>
+                        <input type="submit" class="btn btn-primary" value="Create"/>
                     </div>
                 </form>
             </div>
@@ -65,9 +59,10 @@
             <div id="joinBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="joinBoxLabel" aria-hidden="true">
                 <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    <h3 id="joinBoxLabel">Modal header</h3>
+                    <h3 id="joinBoxLabel">Join</h3>
                 </div>
                 <div class="modal-body">
+                    <p>Specify your group ID here and your nickname.</p>
                     <form method="POST" action="src/php/map.php">
                         <label for="groupid">Groupid:</label>
                         <input type="text" id="groupid" name="groupid" placeholder="Enter the group id provided" />
