@@ -16,6 +16,8 @@
         <link href="src/css/bootstrap.css" rel="stylesheet">
         <link href="src/css/style.css" rel="stylesheet">
         <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="src/css/alertify.core.css" rel="stylesheet">
+        <link href="src/css/alertify.default.css" rel="stylesheet">
         <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
 
     </head>
@@ -104,6 +106,7 @@
         <script src="src/js/bootstrap-carousel.js"></script>
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
+	<script src="src/js/alertify.min.js"></script>
         <script src="src/js/script.js"></script>
         <script src="src/js/sample.js"></script>
 
