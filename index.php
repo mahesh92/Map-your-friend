@@ -40,15 +40,16 @@
  
             <div id="dialogBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="dialogBoxLabel" aria-hidden="true">
                 <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <h3 id="dialogBoxLabel">Create a Group</h3>
                 </div>
                 <form method="POST">
                     <div class="modal-body">
-                   <p>Your group ID details will be mailed to you. Create your group below.</p>
-		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" placeholder="Enter the username" />
-		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
-			        </div>
+                        <p>Your group ID details will be mailed to you. Create your group below.</p>
+		        <label for="nickname">Nickname:</label><input type="text" id="nickname" name="nickname" placeholder="Enter your nickname" />
+		        <label for="group">Group Name:</label><input type="text" id="group" name="group" placeholder="Enter your Group Name" />
+		        <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter the Email ID" />
+		    </div>
                     <div class="modal-footer">
                         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
                         <input type="submit" class="btn btn-primary" value="Create"/>
