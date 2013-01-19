@@ -48,13 +48,13 @@
                 <form method="POST">
                     <div class="modal-body">
                         <p>Your group ID details will be mailed to you. Create your group below.</p>
-		        <label for="nickname">Nickname:</label><input type="text" id="nickname" name="nickname" placeholder="Enter your nickname" />
-		        <label for="group">Group Name:</label><input type="text" id="group" name="group" placeholder="Enter your Group Name" />
-		        <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter the Email ID" />
+		        <label for="nickname">Nickname:</label><input type="text" id="nickname" name="nickname" placeholder="Enter your nickname" onkeyup="check_nickname()"/><div id="area3"></div>
+		        <label for="group">Group Name:</label><input type="text" id="group" name="group" placeholder="Enter your Group Name" onkeyup="check_group_validate()"/><div id="area2"></div>
+		        <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter the Email ID" onkeyup="check_email()"/><div id="area4"></div>
 		    </div>
                     <div class="modal-footer">
                         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                        <input type="submit" class="btn btn-primary" value="Create"/>
+                        <input type="submit" id="create_btn" class="btn btn-primary" value="Create" disabled/>
                     </div>
                 </form>
             </div>
