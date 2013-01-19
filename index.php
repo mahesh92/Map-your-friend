@@ -16,6 +16,8 @@
         <link href="src/css/bootstrap.css" rel="stylesheet">
         <link href="src/css/style.css" rel="stylesheet">
         <link href="src/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="src/css/alertify.core.css" rel="stylesheet">
+        <link href="src/css/alertify.default.css" rel="stylesheet">
         <link rel="shortcut icon" href="res/ico/new_logo_favicon_2.png">
 
     </head>
@@ -40,15 +42,16 @@
  
             <div id="dialogBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="dialogBoxLabel" aria-hidden="true">
                 <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <h3 id="dialogBoxLabel">Create a Group</h3>
                 </div>
                 <form method="POST">
                     <div class="modal-body">
-                   <p>Your group ID details will be mailed to you. Create your group below.</p>
-		        <label for="username1">Username:</label><input type="text" id="username1" name="username1" placeholder="Enter the username" />
-		        <label for="email1">Email:</label><input type="email" id="email1" name="email1" placeholder="Enter the Email ID" />
-			        </div>
+                        <p>Your group ID details will be mailed to you. Create your group below.</p>
+		        <label for="nickname">Nickname:</label><input type="text" id="nickname" name="nickname" placeholder="Enter your nickname" />
+		        <label for="group">Group Name:</label><input type="text" id="group" name="group" placeholder="Enter your Group Name" />
+		        <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="Enter the Email ID" />
+		    </div>
                     <div class="modal-footer">
                         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
                         <input type="submit" class="btn btn-primary" value="Create"/>
@@ -103,6 +106,7 @@
         <script src="src/js/bootstrap-carousel.js"></script>
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
+	<script src="src/js/alertify.min.js"></script>
         <script src="src/js/script.js"></script>
         <script src="src/js/sample.js"></script>
 
