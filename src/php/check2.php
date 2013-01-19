@@ -15,9 +15,9 @@ $group = $_POST['groupid'];
         $query = "SELECT * FROM `users` where group_id = '".$group."' and name='".$name."' ";
         $result=mysql_query($query);
         if ( mysql_num_rows($result) ){
-        	echo "Valid user for the above group";
+        	echo "1";
         }
-        else echo "In-valid user for the above group";
+        else echo "0";
         
 
 
