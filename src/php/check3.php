@@ -10,6 +10,11 @@ $group = $_POST['group'];
     {
         die("Database connection faileddd : ".mysql_error());   
     }
+
+    if ($group=="") {
+        echo "2";
+    }
+    else {
         $query = "SELECT * FROM `users` where group_name = '".$group."' ";
         $result=mysql_query($query);
         if ( mysql_num_rows($result) ){
@@ -17,6 +22,7 @@ $group = $_POST['group'];
         }
         else echo "0";
         
+        }
 
 
 ?>    
