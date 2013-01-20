@@ -106,9 +106,9 @@
         <script src="src/js/bootstrap-carousel.js"></script>
         <script src="src/js/bootstrap-transition.js"></script>
         <script src="src/js/bootstrap-modal.js"></script>
-	<script src="src/js/alertify.min.js"></script>
+	    <script src="src/js/alertify.min.js"></script>
         <script src="src/js/script.js"></script>
-        <script src="src/js/sample.js"></script>
+        <script src="src/js/validate.js"></script>
 
     </body>
 </html>
