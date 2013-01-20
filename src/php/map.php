@@ -2,6 +2,7 @@
 <html>
   <?php
     $name = $_POST['name'];
+    $groupid = $_POST['groupid'];
   ?>
   <head>
     <script src="../js/jquery.js"></script>

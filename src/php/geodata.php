@@ -30,7 +30,7 @@ function success(position) {
     };
     var infoWindow = new google.maps.InfoWindow();
     map = new google.maps.Map(document.getElementById("content"), mapOptions);
-    $.getJSON("db.php?name=<?php echo $name;?>&lat="+lat+"&lng="+lng, function(data) {
+    $.getJSON("db.php?name=<?php echo $name;?>&groupid=<?php echo $groupid;?>&lat="+lat+"&lng="+lng, function(data) {
         var i=1;
 
         //Locate all the users from the database
@@ -61,12 +61,12 @@ function error(error){
 
 //Delete the user details from database when user move out of from our webapp
 
-$(window).bind("beforeunload", function() {
+/*$(window).bind("beforeunload", function() {
     alert("do you want to leave this page");
     $.ajax({
         url:'db.php?name=<?php echo $name;?>',
         type : 'GET',
         async : false,
     });    
-});
+});*/
 </script>
