@@ -65,6 +65,10 @@ function check_group_validate(){
 					        $('#area2').html("Group name taken");
 				   			$('#create_btn').attr('disabled', true);
 				    }
+				    else if (data==2) {
+				    	    $('#area2').html("Empty group name");
+				    	    $('#create_btn').attr('disabled', true);
+				    }
 					else if (data==0){ 
 						    $('#area2').html("Group name unique");
 						    if(  (!emailReg.test(emailaddressVal)&&nickname.length<4) ) {

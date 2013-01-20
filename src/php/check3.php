@@ -1,5 +1,4 @@
 <?php
-
 $group = $_POST['group'];
     $connection = mysql_connect("localhost","root","");
     if(!$connection)
@@ -11,17 +10,18 @@ $group = $_POST['group'];
     {
         die("Database connection faileddd : ".mysql_error());   
     }
-    if (strlen($group)==0 ){
-        echo "1";
+
+    if ($group=="") {
+        echo "2";
     }
-else{
+    else {
         $query = "SELECT * FROM `users` where group_name = '".$group."' ";
         $result=mysql_query($query);
         if ( mysql_num_rows($result) ){
         	echo "1";
         }
         else echo "0";
-
+        
         }
 
 
