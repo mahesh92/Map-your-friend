@@ -35,22 +35,24 @@ function success(position) {
         //Locate all the users from the database
 
         $.each(data, function(index,row){
-            $('#list').append(i+"."+row.name+"<br/ >");
-            console.log(row.name);
-            latLng = new google.maps.LatLng(row.latitude, row.longitude);  
-            var marker = new google.maps.Marker({
-                position: latLng,
-                map: map,
-                title: row.name
-            });
-            //Provide Tooltip when we click on the marker
+                if(row.latitude!=1000){
+                    $('#list').append(i+"."+row.name+"<br/ >");
+                    console.log(row.name);
+                    latLng = new google.maps.LatLng(row.latitude, row.longitude);  
+                    var marker = new google.maps.Marker({
+                        position: latLng,
+                        map: map,
+                        title: row.name
+                    });
+                    //Provide Tooltip when we click on the marker
 
-            google.maps.event.addListener(marker, "click", function(e) {
-                infoWindow.setContent(row.name+"<br / >"+row.latitude+"<br / >"+row.longitude);
-                infoWindow.open(map, marker);
+                    google.maps.event.addListener(marker, "click", function(e) {
+                            infoWindow.setContent(row.name+"<br / >"+row.latitude+"<br / >"+row.longitude);
+                            infoWindow.open(map, marker);
+                    });
+                    i = i+1;
+                }
             });
-            i = i+1; 
-        });
     });
 }
 
