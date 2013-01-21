@@ -14,7 +14,6 @@ if(!navigator.geolocation) {
     $('#content').text("Your Browser doesn't support Ajax");
 } else {
     //Ask the user permission to get his location details
-
     navigator.geolocation.getCurrentPosition(success,error);
 }
 
@@ -23,6 +22,7 @@ if(!navigator.geolocation) {
 function success(position) {
     lat = position.coords.latitude;    //Get the Latitude and Longitude of the user
     lng = position.coords.longitude;
+    console.log(''+lat+lng);
     var mapOptions = {
         center: new google.maps.LatLng(57.9, 14.6),
         zoom: 2,
@@ -32,11 +32,11 @@ function success(position) {
     map = new google.maps.Map(document.getElementById("content"), mapOptions);
     $.getJSON("db.php?name=<?php echo $name;?>&groupid=<?php echo $groupid;?>&lat="+lat+"&lng="+lng, function(data) {
         var i=1;
-
         //Locate all the users from the database
 
         $.each(data, function(index,row){
             $('#list').append(i+"."+row.name+"<br/ >");
+            console.log(row.name);
             latLng = new google.maps.LatLng(row.latitude, row.longitude);  
             var marker = new google.maps.Marker({
                 position: latLng,
